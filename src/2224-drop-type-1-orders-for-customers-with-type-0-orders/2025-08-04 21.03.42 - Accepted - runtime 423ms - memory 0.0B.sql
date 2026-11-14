@@ -1,0 +1,3 @@
+select * from 
+orders
+where order_type <> 1 or customer_id not in (select distinct customer_id from orders where order_type = 0)

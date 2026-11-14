@@ -1,0 +1,22 @@
+class Solution {
+    public int numTilePossibilities(String tiles) {
+        int cnt[] = new int[26];
+        for(char c : tiles.toCharArray()){
+            cnt[c-'A']++;
+        }
+        return solve(cnt);
+    }
+
+    private int solve(int cnt[]){
+        int ans = 0;
+
+        for(int i=0;i<26;i++){
+            if(cnt[i]==0) continue;
+            ans++;
+            cnt[i]--;
+            ans+=solve(cnt);
+            cnt[i]++;
+        }
+        return ans;
+    }
+}

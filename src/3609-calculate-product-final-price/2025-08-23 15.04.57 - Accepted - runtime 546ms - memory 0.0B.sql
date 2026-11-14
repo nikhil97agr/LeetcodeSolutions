@@ -1,0 +1,5 @@
+select p.product_id,  if(d.discount is null, price, price - price*discount/100) as final_price, p.category
+from products p
+left join discounts d
+on p.category = d.category
+order by p.product_id asc
