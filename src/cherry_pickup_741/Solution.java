@@ -1,0 +1,38 @@
+package cherry_pickup_741;
+
+class Solution {
+    public int cherryPickup(int[][] grid) {
+        int n = grid.length;
+
+        Integer dp[][][][] = new Integer[n][n][n][n];
+
+        return Math.max(solve(0, 0, 0,0, dp, n, grid), 0);
+    }
+
+    private int solve(int r1, int c1, int c2, int r2, Integer dp[][][][], int n, int grid[][]){
+
+        if(r1 >=n || r2 >= n || c1 >=n || c2 >= n || grid[r1][c1] == -1 || grid[r2][c2] == -1){
+            return Integer.MIN_VALUE;
+        }
+
+        if(r1 == n-1 && c1 == n-1){
+            return grid[r1][c1];
+        }
+        if(dp[r1][c1][c2][r2]!=null) return dp[r1][c1][c2][r2];
+        int cherry = grid[r1][c1];
+
+        if(c1!=c2 || r1!=r2){
+            cherry += grid[r2][c2];
+        }
+        int max = Math.max(
+                solve(r1+1, c1, c2, r2+1,dp, n, grid),
+                Math.max(solve(r1, c1+1, c2, r2+1,dp, n, grid),
+                        Math.max(solve(r1+1, c1, c2+1,r2, dp, n, grid),
+                                solve(r1, c1+1, c2+1, r2, dp, n, grid)))
+        );
+
+        if(max == Integer.MIN_VALUE) return dp[r1][c1][c2][r2]= Integer.MIN_VALUE;
+
+        return dp[r1][c1][c2][r2] = max + cherry;
+    }
+}

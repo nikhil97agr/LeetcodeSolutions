@@ -1,0 +1,25 @@
+package find_a_corresponding_node_of_a_binary_tree_in_a_clone_of_that_tree_1498;
+
+// Definition for a binary tree node.
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
+
+class Solution {
+    public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
+        if(original == target) return cloned;
+
+        if(original == null) return null;
+
+        TreeNode left =getTargetCopy(original.left, cloned.left, target);
+        TreeNode right = getTargetCopy(original.right, cloned.right, target);
+
+        if(left!=null) return left;
+        if(right!=null) return right;
+        return left;
+        
+    }
+}

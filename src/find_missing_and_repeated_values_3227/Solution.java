@@ -1,0 +1,21 @@
+package find_missing_and_repeated_values_3227;
+
+class Solution {
+    public int[] findMissingAndRepeatedValues(int[][] grid) {
+        int n = grid.length;
+        int cnt[] = new int[n*n+1];
+        for(int x[] : grid){
+            for(int y : x){
+                cnt[y]++;
+            }
+        }
+
+        int ans[] = new int[2];
+        for(int i=1;i<=n*n;i++){
+            if(cnt[i] ==0) ans[1] = i;
+            if(cnt[i] == 2) ans[0] = i;
+        }
+
+        return ans;
+    }
+}

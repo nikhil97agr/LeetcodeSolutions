@@ -1,0 +1,17 @@
+package one_bit_and_2_bit_characters_717;
+
+class Solution {
+    public boolean isOneBitCharacter(int[] bits) {
+        int n =bits.length;
+        for(int i=0;i<n;i++){
+            if(bits[i] == 1){
+                i++;
+                continue;
+            }
+
+            if(i==n-1) return true;
+        }
+
+        return false;
+    }
+}

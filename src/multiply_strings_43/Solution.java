@@ -1,0 +1,12 @@
+package multiply_strings_43;
+
+import java.math.*;
+import java.math.BigInteger;
+class Solution {
+    public String multiply(String num1, String num2) {
+        BigInteger a = new BigInteger(num1);
+        BigInteger b = new BigInteger(num2);
+        a=a.multiply(b);
+        return a.toString();
+    }
+}

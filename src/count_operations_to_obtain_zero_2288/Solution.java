@@ -1,0 +1,16 @@
+package count_operations_to_obtain_zero_2288;
+
+class Solution {
+    public int countOperations(int num1, int num2) {
+        int cnt = 0;
+        while(num1 > 0 && num2 > 0){
+            cnt++;
+            if(num1 >= num2){
+                num1 -= num2;
+            }else{
+                num2 -= num1;
+            }
+        }
+        return cnt;
+    }
+}

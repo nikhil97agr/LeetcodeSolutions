@@ -1,0 +1,39 @@
+package maximum_number_of_points_with_cost_2067;
+
+import java.util.*;
+class Solution {
+    public long maxPoints(int[][] points) {
+        int n = points.length;
+        int m = points[0].length;
+
+        long dp[] = new long[m];
+
+        for(int i=0;i<m;i++){
+            dp[i] = points[0][i];
+        }
+
+        for(int i=1;i<n;i++){
+            long left[] = new long[m];
+            long right[] = new long[m];
+            long curr[] = new long[m];
+
+            left[0] = dp[0];
+            right[m-1] = dp[m-1];
+
+            for(int j=1;j<m;j++){
+                left[j] = Math.max(dp[j], left[j-1]-1);
+            }
+
+            for(int j=m-2;j>=0;j--){
+                right[j] = Math.max(dp[j], right[j+1]-1);
+            }
+
+            for(int j=0;j<m;j++){
+                curr[j] = points[i][j] + Math.max(left[j], right[j]);
+            }
+            dp = curr;
+        }
+
+        return Arrays.stream(dp).max().getAsLong();
+    }
+}

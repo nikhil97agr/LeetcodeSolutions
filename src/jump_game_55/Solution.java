@@ -1,0 +1,17 @@
+package jump_game_55;
+
+class Solution {
+    public boolean canJump(int[] nums) {
+        int nextJump = 0;
+        for(int i=0;i<nums.length;i++){
+            if(i==nums.length-1) return true;
+
+            nextJump--;
+
+            nextJump = Math.max(nextJump, nums[i]);
+
+            if(nextJump <=0) return false;
+        }
+        return true;
+    }
+}

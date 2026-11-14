@@ -1,0 +1,18 @@
+package check_whether_two_strings_are_almost_equivalent_2177;
+
+class Solution {
+    public boolean checkAlmostEquivalent(String word1, String word2) {
+        int c1[] = new int[26];
+        int c2[] = new int[26];
+
+        for(char c : word1.toCharArray()) c1[c-'a']++;
+        for(char c : word2.toCharArray()) c2[c-'a']++;
+
+        for(int i=0;i<26;i++){
+            int cnt = Math.abs(c1[i] - c2[i]);
+
+            if(cnt > 3) return false;
+        }
+        return true;
+    }
+}

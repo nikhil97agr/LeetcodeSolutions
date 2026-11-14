@@ -1,0 +1,17 @@
+package number_of_ways_to_buy_pens_and_pencils_2351;
+
+class Solution {
+    public long waysToBuyPensPencils(int total, int cost1, int cost2) {
+        long ans = 0;
+        for(int i=0;i*cost1 <= total;i++){
+            int left = total - i * cost1;
+            int pencil = left/cost2;
+        
+            ans += (pencil + 1);
+        }
+
+        return ans;
+    }
+
+
+}

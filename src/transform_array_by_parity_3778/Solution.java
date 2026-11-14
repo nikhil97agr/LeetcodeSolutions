@@ -1,0 +1,13 @@
+package transform_array_by_parity_3778;
+
+import java.util.*;
+class Solution {
+    public int[] transformArray(int[] nums) {
+        for(int i=0;i<nums.length;i++){
+            nums[i] = nums[i]%2;
+        }
+
+        Arrays.sort(nums);
+        return nums;
+    }
+}
