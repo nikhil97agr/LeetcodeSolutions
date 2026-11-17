@@ -93,3 +93,31 @@ Classification: 70% inherent problem challenge + 30% actual implementation compl
 | 70 | `armstrong_number_1090` | 15 | Easy | Digit extraction and fixed-power summation with a direct comparison. | 2 |
 
 Checkpoint totals: 20 problem folders; 40 files copied. Next problem to process: **71**. Batch 002 remains open through problem 150.
+
+
+# Migration classification — Batch 002 (checkpoint 2)
+
+Problems 71–90 (alphabetical eligible-problem order). Each problem folder was copied in full; original `src/` files are retained.
+
+71. `arranging_coins_441` — Score 20 — Easy — Greedy row accumulation; straightforward linear simulation.
+72. `array_nesting_565` — Score 53 — Medium — Permutation-cycle traversal with visited/memoization and cycle-length reasoning.
+73. `array_of_doubled_pairs_991` — Score 51 — Medium — Frequency accounting and ordering by value magnitude, including negative and zero cases.
+74. `array_partition_561` — Score 18 — Easy — Sorting and pairing adjacent values using a direct greedy argument.
+75. `array_transformation_1175` — Score 29 — Easy — Repeated local simulation until a fixed point; small bounded input.
+76. `array_with_elements_not_equal_to_average_of_neighbors_2085` — Score 43 — Medium — Constructive rearrangement requiring a non-obvious ordering invariant.
+77. `as_far_from_land_as_possible_1117` — Score 57 — Medium — Multi-source shortest-path reasoning over a grid.
+78. `assign_cookies_455` — Score 25 — Easy — Sort both arrays and apply a simple greedy matching.
+79. `assign_elements_to_groups_with_constraints_3760` — Score 49 — Medium — Efficient divisor enumeration and earliest-index selection under large constraints.
+80. `asteroid_collision_735` — Score 52 — Medium — Monotonic stack simulation with repeated collision resolution.
+81. `available_captures_for_rook_1041` — Score 16 — Easy — Four directional scans on a fixed 8x8 board.
+82. `average_height_of_buildings_in_each_segment_2142` — Score 67 — Hard — Sweep-line event aggregation, active-set averages, and coalescing adjacent equal segments.
+83. `average_of_levels_in_binary_tree_637` — Score 28 — Easy — Level-order traversal with per-level aggregation.
+84. `average_salary_excluding_the_minimum_and_maximum_salary_1584` — Score 14 — Easy — Single-pass min/max/sum aggregation.
+85. `average_value_of_even_numbers_that_are_divisible_by_three_2542` — Score 12 — Easy — Simple filtering and integer average.
+86. `average_waiting_time_1803` — Score 24 — Easy — Single-pass simulation of a single-server schedule and accumulated wait.
+87. `avoid_flood_in_the_city_1612` — Score 64 — Medium — Greedy scheduling of dry days between repeated rains; ordered successor selection is central.
+88. `backspace_string_compare_874` — Score 27 — Easy — Stack-based simulation of editor backspaces.
+89. `bag_of_tokens_985` — Score 51 — Medium — Two-ended greedy with score/power trade-offs and invariant-based decisions.
+90. `balance_a_binary_search_tree_1285` — Score 39 — Medium — Inorder traversal followed by balanced recursive reconstruction.
+
+Checkpoint status: 90 of 150 problems in Batch 002 processed. Next problem: ordinal 91.
