@@ -121,3 +121,29 @@ Problems 71–90 (alphabetical eligible-problem order). Each problem folder was 
 90. `balance_a_binary_search_tree_1285` — Score 39 — Medium — Inorder traversal followed by balanced recursive reconstruction.
 
 Checkpoint status: 90 of 150 problems in Batch 002 processed. Next problem: ordinal 91.
+
+
+# Migration classification — Batch 003 (checkpoint 1)
+
+91. `balanced_binary_tree_110` — Score 27 — Easy — Postorder height computation detects imbalance in linear time with a compact recursive invariant.
+92. `balanced_k_factor_decomposition_3947` — Score 51 — Medium — Backtracking over nondecreasing divisors to form exactly k factors and minimize the spread.
+93. `base_7_504` — Score 8 — Easy — Direct integer base conversion with sign handling delegated to a standard conversion routine.
+94. `baseball_game_682` — Score 23 — Easy — Stack simulation of four local scoring operations with straightforward state updates.
+95. `basic_calculator_224` — Score 58 — Medium — Single-pass expression evaluation with nested parentheses, unary minus, and sign-state management.
+96. `basic_calculator_ii_227` — Score 47 — Medium — Operator-precedence evaluation using a stack and deferred accumulation of additive terms.
+97. `basic_calculator_iii_785` — Score 68 — Hard — Recursive parsing of nested parentheses combined with multiplication/division precedence and queue-based evaluation.
+98. `basic_calculator_iv_781` — Score 86 — Hard — Symbolic polynomial parsing, substitution, multiplication, coefficient aggregation, and canonical term ordering.
+99. `battleships_in_a_board_419` — Score 30 — Easy — Connected-component traversal on a constrained grid; implementation uses a simple visited matrix.
+100. `beautiful_arrangement_526` — Score 57 — Medium — Bitmask dynamic programming counts valid permutations under position-dependent divisibility constraints.
+101. `beautiful_arrangement_ii_667` — Score 39 — Medium — Constructive alternating high-low arrangement creates exactly k distinct adjacent differences.
+102. `beautiful_array_968` — Score 48 — Medium — Recursive odd-even transformation preserves the no-arithmetic-progression invariant.
+103. `beautiful_pairs_2719` — Score 92 — Hard — Two-dimensional closest-pair-style optimization using sorting and segment trees with lexicographic tie handling.
+104. `beautiful_towers_i_3114` — Score 58 — Medium — Enumerates peak positions and computes monotone sides; quadratic implementation is viable under the given bounds.
+105. `beautiful_towers_ii_3113` — Score 70 — Hard — Monotonic-stack prefix/suffix contributions optimize the mountain profile to linear time.
+106. `before_and_after_puzzle_1132` — Score 30 — Easy — Pairwise phrase matching, deduplication, and lexicographic sorting with direct string operations.
+107. `best_meeting_point_296` — Score 54 — Medium — Manhattan-distance minimization relies on coordinate medians and aggregation across both dimensions.
+108. `best_poker_hand_2433` — Score 13 — Easy — Counts five ranks and suits, then applies a short ordered set of classification rules.
+109. `best_position_for_a_service_centre_1638` — Score 82 — Hard — Continuous two-dimensional geometric minimization requires numerical search and convergence reasoning.
+110. `best_reachable_tower_4187` — Score 22 — Easy — Linear scan with Manhattan-distance filtering and deterministic lexicographic tie handling.
+
+Checkpoint status: 20 of 100 problems in Batch 003 processed (overall eligible ordinals 91–110). Next problem: ordinal 111.
