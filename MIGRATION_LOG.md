@@ -173,3 +173,29 @@ Checkpoint status: 20 of 100 problems in Batch 003 processed (overall eligible o
 130. `binary_search_tree_to_greater_sum_tree_1114` — Score 39 — Medium — Reverse inorder traversal propagates a running greater-value sum through the tree.
 
 Checkpoint status: 20 of 100 problems in Batch 004 processed (overall eligible ordinals 111–130). Next problem: ordinal 131.
+
+
+# Migration classification — Batch 004 (checkpoint 1)
+
+111. `best_sightseeing_pair_1063` — Score 35 — Medium — Maintains the best prior value-minus-index to optimize the pair score in one pass.
+112. `best_team_with_no_conflicts_1748` — Score 63 — Medium — Sorts by age and score, then applies subsequence dynamic programming under a conflict constraint.
+113. `best_time_to_buy_and_sell_stock_121` — Score 22 — Easy — Single-pass minimum-so-far tracking for one buy-sell transaction.
+114. `best_time_to_buy_and_sell_stock_ii_122` — Score 43 — Medium — State-based dynamic programming for repeated buy/sell decisions with a one-share constraint.
+115. `best_time_to_buy_and_sell_stock_iii_123` — Score 62 — Medium — Dynamic programming tracks holding state and a strict limit of two completed transactions.
+116. `best_time_to_buy_and_sell_stock_iv_188` — Score 67 — Hard — Generalized transaction-count DP with holding state and O(nk) state management.
+117. `best_time_to_buy_and_sell_stock_using_strategy_3980` — Score 54 — Medium — Sliding-window optimization compares a baseline strategy with one constrained interval modification.
+118. `best_time_to_buy_and_sell_stock_v_3892` — Score 74 — Hard — DP models normal and short-sale positions with transaction limits and strict sequential closure.
+119. `best_time_to_buy_and_sell_stock_with_cooldown_309` — Score 48 — Medium — State DP with a nonlocal next-day transition enforcing cooldown after selling.
+120. `best_time_to_buy_and_sell_stock_with_cooldown_ii_4117` — Score 84 — Hard — Multi-dimensional DP coordinates buy day, sell day, cooldown, and duration-dependent transaction fees.
+121. `best_time_to_buy_and_sell_stock_with_transaction_fee_714` — Score 43 — Medium — Two-state dynamic programming incorporates a fee on each completed transaction.
+122. `better_compression_of_string_3474` — Score 28 — Easy — Parses character-frequency pairs, aggregates counts, and emits a fixed alphabet order.
+123. `binary_digit_score_4449` — Score 13 — Easy — Uses built-in population count and a direct conditional formula.
+124. `binary_gap_899` — Score 22 — Easy — Scans bit positions and tracks distances between consecutive set bits.
+125. `binary_number_with_alternating_bits_693` — Score 19 — Easy — Linear bit scan checks that adjacent bits alternate.
+126. `binary_prefix_divisible_by_5_1071` — Score 32 — Easy — Maintains a running binary prefix modulo five to avoid integer growth.
+127. `binary_search_792` — Score 23 — Easy — Standard iterative binary search with logarithmic time and simple interval invariants.
+128. `binary_search_tree_iterator_173` — Score 39 — Medium — Maintains an explicit stack of the left spine to lazily produce inorder successors.
+129. `binary_search_tree_iterator_ii_1729` — Score 51 — Medium — Bidirectional iterator requires maintaining traversal history and reversible cursor state.
+130. `binary_search_tree_to_greater_sum_tree_1114` — Score 34 — Easy — Reverse-inorder traversal accumulates a suffix sum and updates nodes in place.
+
+Checkpoint status: 20 of 100 problems in Batch 004 processed (overall eligible ordinals 111–130). Next problem: ordinal 131.
