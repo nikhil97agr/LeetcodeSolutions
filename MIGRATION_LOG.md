@@ -61,3 +61,35 @@ Classification rule: 70% inherent problem challenge + 30% actual implementation 
 
 Batch totals: 50 problem folders; 100 files copied.
 Verification: destination entries are built from the exact source blob SHAs; source paths are unchanged. Full tree verification follows the commit.
+
+
+# Migration classification — Batch 002 (checkpoint 1)
+
+Batch scope: alphabetical eligible problem folders 51–150 (planned 100); this checkpoint completes problems 51–70.
+
+Classification: 70% inherent problem challenge + 30% actual implementation complexity. LeetCode's label is used only as a tie-breaker for genuinely borderline cases. All 20 reviewed here are algorithmic and go under `Algorithm/`. Source folders are retained unchanged.
+
+| # | Problem folder | Score | Assigned difficulty | Reason | Files copied |
+|---:|---|---:|---|---|---:|
+| 51 | `ant_on_the_boundary_3311` | 20 | Easy | Single-pass accumulation of movement; check whether the running position crosses the boundary. | 2 |
+| 52 | `append_characters_to_string_to_make_subsequence_2572` | 20 | Easy | Two-pointer subsequence scan; only count unmatched target suffix characters. | 2 |
+| 53 | `append_k_integers_with_minimal_sum_2305` | 43 | Medium | Greedy selection of smallest allowed positive integers while excluding a set; arithmetic-series handling. | 2 |
+| 54 | `apple_redistribution_into_boxes_3334` | 12 | Easy | Sort capacities and greedily take largest boxes until the required total is reached. | 2 |
+| 55 | `apply_bitwise_operations_to_make_strings_equal_2632` | 27 | Easy | Bitwise reachability reduces to checking whether both strings contain a one. | 2 |
+| 56 | `apply_discount_every_n_orders_1459` | 42 | Medium | Stateful cashier object combines product-price lookup, bill aggregation and periodic customer state. | 2 |
+| 57 | `apply_discount_to_prices_2373` | 37 | Medium | Token validation and monetary formatting require careful parsing and exact two-decimal output. | 2 |
+| 58 | `apply_operations_on_array_to_maximize_sum_of_squares_3153` | 72 | Hard | Bit-count redistribution across k constructed values maximizes a nonlinear sum under bitwise invariants. | 2 |
+| 59 | `apply_operations_to_an_array_2551` | 22 | Easy | Sequential adjacent updates followed by stable zero compaction. | 2 |
+| 60 | `apply_operations_to_make_all_array_elements_equal_to_zero_2878` | 48 | Medium | Greedy forced window operations with a running expiration count; linear-time invariant maintenance. | 2 |
+| 61 | `apply_operations_to_make_string_empty_3308` | 36 | Medium | Frequency maxima plus last-occurrence ordering; moderate counting and ordering reasoning. | 2 |
+| 62 | `apply_operations_to_make_sum_of_array_greater_than_or_equal_to_k_3328` | 34 | Easy | Optimize a simple increment-versus-duplicate tradeoff using a direct arithmetic search. | 2 |
+| 63 | `apply_operations_to_make_two_strings_equal_3033` | 73 | Hard | Minimum-cost pairing of mismatch positions with local and global operations; nontrivial DP/optimization reasoning. | 2 |
+| 64 | `apply_operations_to_maximize_frequency_score_3196` | 68 | Hard | Sort, prefix sums, median-cost windows and binary search over feasible frequency. | 2 |
+| 65 | `apply_operations_to_maximize_score_3001` | 76 | Hard | Prime-factor scoring, asymmetric monotonic boundaries and greedy exponentiation over subarray contributions. | 2 |
+| 66 | `apply_substitutions_3825` | 43 | Medium | Recursive dependency expansion over an acyclic replacement graph; nested substitutions and expansion order. | 2 |
+| 67 | `arithmetic_slices_413` | 29 | Easy | Count extensions of contiguous equal-difference runs with a simple linear recurrence. | 2 |
+| 68 | `arithmetic_slices_ii_subsequence_446` | 74 | Hard | Count arithmetic subsequences using pairwise differences and dynamic programming across index pairs. | 2 |
+| 69 | `arithmetic_subarrays_1752` | 44 | Medium | For each range, verify a rearrangeable arithmetic progression using extrema, expected spacing and set membership. | 2 |
+| 70 | `armstrong_number_1090` | 15 | Easy | Digit extraction and fixed-power summation with a direct comparison. | 2 |
+
+Checkpoint totals: 20 problem folders; 40 files copied. Next problem to process: **71**. Batch 002 remains open through problem 150.
