@@ -350,3 +350,13 @@ Batch 006 status: 28 of 100 problems accounted for (151–174 pre-existing and v
 182. `bulb_switcher_ii_672` — Score 38 — Medium — The four toggle operations collapse into a small set of parity patterns; reasoning about equivalence and the press-count limit bounds the state space.
 
 Batch 006 status: 32 of 100 problems accounted for (151–174 pre-existing and verified; 175–182 newly copied). Next problem: ordinal 183.
+
+
+# Migration classification — Batch 006 (checkpoint 3)
+
+183. `bulls_and_cows_299` — Score 35 — Medium — Counts exact-position matches first, then uses digit frequencies for unmatched positions so duplicates are not overcounted.
+184. `burst_balloons_312` — Score 78 — Hard — Interval DP chooses the last balloon burst in each subinterval, converting a changing-neighbor process into optimal substructure.
+185. `bus_routes_833` — Score 58 — Medium — Builds stop-to-route adjacency and runs BFS over routes to minimize the number of bus transfers across a large implicit graph.
+186. `button_with_longest_push_time_3632` — Score 18 — Easy — A linear scan compares each event time with the previous timestamp and applies the smallest-index tie-break.
+
+Batch 006 status: 36 of 100 problems accounted for (151–174 pre-existing and verified; 175–186 newly copied). Next problem: ordinal 187.
