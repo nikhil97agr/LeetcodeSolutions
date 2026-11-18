@@ -261,3 +261,13 @@ Checkpoint status: 20 of 100 problems in Batch 005 processed (overall eligible o
 Duplicate audit correction: removed duplicate destination copies for `binary_search_tree_to_greater_sum_tree_1114`, `best_time_to_buy_and_sell_stock_iv_188`, and `best_time_to_buy_and_sell_stock_v_3892`. Each now has exactly one destination under its logged difficulty.
 
 Checkpoint status: 4 of 100 problems in Batch 006 processed (overall eligible ordinals 151–154). Next problem: ordinal 155.
+
+
+# Migration classification — Batch 006 (checkpoint 2)
+
+155. `bitwise_or_of_all_subsequence_sums_2644` — Score 45 — Medium — Uses the structural fact that OR over all subsequence sums can be obtained from the element values and running prefix sums, avoiding exponential subsequence enumeration.
+156. `bitwise_or_of_even_numbers_in_an_array_4009` — Score 12 — Easy — A straightforward scan filters even values and accumulates their bitwise OR.
+157. `bitwise_ors_of_subarrays_934` — Score 54 — Medium — Maintains the set of distinct OR values for subarrays ending at the current index; the bounded number of bitwise states avoids quadratic enumeration.
+158. `bitwise_xor_of_all_pairings_2533` — Score 36 — Medium — Parity reasoning shows each element contributes to the total XOR only when the opposite array has odd length; this collapses a quadratic pairing process to linear scans.
+
+Checkpoint status: 8 of 100 problems in Batch 006 processed (overall eligible ordinals 151–158). Next problem: ordinal 159.
