@@ -291,3 +291,13 @@ Checkpoint status: 12 of 100 problems in Batch 006 processed (overall eligible o
 166. `brace_expansion_ii_1188` — Score 71 — Hard — Parses nested grammar with union and concatenation precedence, recursively evaluating sets and Cartesian products.
 
 Checkpoint status: 16 of 100 problems in Batch 006 processed (overall eligible ordinals 151–166). Next problem: ordinal 167.
+
+
+# Migration classification — Batch 006 (checkpoint 5)
+
+167. `break_a_palindrome_1252` — Score 33 — Easy — A greedy scan changes the earliest non-middle character that is not already 'a'; the final character handles the all-a case.
+168. `brick_wall_554` — Score 38 — Medium — Counts aligned internal edge positions across rows and chooses the most frequent seam to minimize crossed bricks.
+169. `bricks_falling_when_hit_821` — Score 70 — Hard — Stability propagation after sequential hits requires careful reverse restoration and connected-component reasoning over the grid.
+170. `brightest_position_on_street_2075` — Score 43 — Medium — A sweep line over inclusive illumination intervals processes start/end events in coordinate order and tracks the earliest maximum overlap.
+
+Checkpoint status: 20 of 100 problems in Batch 006 processed (overall eligible ordinals 151–170). Next problem: ordinal 171.
