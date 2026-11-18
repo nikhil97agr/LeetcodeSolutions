@@ -360,3 +360,13 @@ Batch 006 status: 32 of 100 problems accounted for (151–174 pre-existing and v
 186. `button_with_longest_push_time_3632` — Score 18 — Easy — A linear scan compares each event time with the previous timestamp and applies the smallest-index tie-break.
 
 Batch 006 status: 36 of 100 problems accounted for (151–174 pre-existing and verified; 175–186 newly copied). Next problem: ordinal 187.
+
+
+# Migration classification — Batch 006 (checkpoint 4)
+
+187. `buy_two_chocolates_2756` — Score 17 — Easy — Tracks the two minimum prices in one pass and checks whether their sum fits the available money.
+188. `calculate_amount_paid_in_taxes_1382` — Score 25 — Easy — Walks the sorted tax brackets once, applying each marginal rate to the portion of income in that bracket.
+189. `calculate_delayed_arrival_time_2748` — Score 8 — Easy — Adds the delay and wraps the hour using modulo 24.
+190. `calculate_digit_sum_of_a_string_2361` — Score 28 — Easy — Repeatedly groups the string into fixed-size chunks, sums each chunk's digits, and rebuilds the string.
+
+Batch 006 status: 40 of 100 problems accounted for (151–174 pre-existing and verified; 175–190 newly copied). Next problem: ordinal 191.
