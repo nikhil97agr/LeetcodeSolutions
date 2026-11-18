@@ -239,3 +239,13 @@ Checkpoint status: 12 of 100 problems in Batch 005 processed (overall eligible o
 146. `binary_tree_right_side_view_199` — Score 39 — Medium — A level-order traversal visits right children first and records the first node at each depth.
 
 Checkpoint status: 16 of 100 problems in Batch 005 processed (overall eligible ordinals 131–146). Next problem: ordinal 147.
+
+
+# Migration classification — Batch 005 (checkpoint 5)
+
+147. `binary_tree_tilt_563` — Score 28 — Easy — Postorder recursion returns each subtree sum and accumulates the absolute difference between left and right sums.
+148. `binary_tree_upside_down_156` — Score 48 — Medium — Recursive pointer rewiring transforms each level while preserving the original right child as the new left child.
+149. `binary_tree_vertical_order_traversal_314` — Score 48 — Medium — BFS tracks horizontal column indices and preserves top-to-bottom, left-to-right ordering while grouping nodes by column.
+150. `binary_tree_zigzag_level_order_traversal_103` — Score 42 — Medium — Alternating level traversal changes child-push order across stack frontiers to produce zigzag ordering.
+
+Checkpoint status: 20 of 100 problems in Batch 005 processed (overall eligible ordinals 131–150). Next problem: ordinal 151.
