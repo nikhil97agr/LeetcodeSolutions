@@ -370,3 +370,13 @@ Batch 006 status: 36 of 100 problems accounted for (151–174 pre-existing and v
 190. `calculate_digit_sum_of_a_string_2361` — Score 28 — Easy — Repeatedly groups the string into fixed-size chunks, sums each chunk's digits, and rebuilds the string.
 
 Batch 006 status: 40 of 100 problems accounted for (151–174 pre-existing and verified; 175–190 newly copied). Next problem: ordinal 191.
+
+
+# Migration classification — Batch 006 (checkpoint 5)
+
+191. `calculate_money_in_leetcode_bank_1817` — Score 25 — Easy — Accumulates the weekday deposits while increasing each new week's Monday baseline by one.
+192. `calculate_score_after_performing_instructions_3732` — Score 32 — Easy — Simulates deterministic instruction execution while a visited set detects the first repeated index.
+193. `camelcase_matching_1080` — Score 39 — Medium — Two-pointer matching must consume the pattern in order while rejecting unmatched uppercase characters and allowing arbitrary lowercase insertions.
+194. `campus_bikes_1052` — Score 45 — Medium — Generates all worker-bike pairs, sorts them by distance and tie-breakers, then greedily assigns unused endpoints.
+
+Batch 006 status: 44 of 100 problems accounted for (151–174 pre-existing and verified; 175–194 newly copied). Next problem: ordinal 195.
