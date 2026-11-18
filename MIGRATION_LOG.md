@@ -410,3 +410,13 @@ Batch 006 status: 52 of 100 problems accounted for (151–174 pre-existing and v
 202. `candy_135` — Score 67 — Hard — Minimum assignments must satisfy both neighboring-rating constraints globally; processing ratings in sorted order propagates candy requirements across adjacent children.
 
 Batch 006 status: 52 of 100 problems accounted for (151–174 pre-existing and verified; 175–202 newly copied). Next problem: ordinal 203.
+
+
+# Migration classification — Batch 006 (checkpoint 8)
+
+203. `candy_crush_723` — Score 47 — Medium — Repeatedly detects simultaneous horizontal and vertical matches, removes them together, applies gravity, and repeats until the board stabilizes.
+204. `capacity_to_ship_packages_within_d_days_1056` — Score 48 — Medium — Binary-searches the minimum feasible ship capacity using a greedy linear simulation to test the required number of days.
+205. `capitalize_the_title_2235` — Score 15 — Easy — Processes each word independently and applies the length-based capitalization rule.
+206. `car_fleet_883` — Score 47 — Medium — Sorts cars by starting position and compares arrival times from nearest to farthest to merge cars that cannot pass one another.
+
+Batch 006 status: 56 of 100 problems accounted for (151–174 pre-existing and verified; 175–206 newly copied). Next problem: ordinal 207.
