@@ -301,3 +301,13 @@ Checkpoint status: 16 of 100 problems in Batch 006 processed (overall eligible o
 170. `brightest_position_on_street_2075` — Score 43 — Medium — A sweep line over inclusive illumination intervals processes start/end events in coordinate order and tracks the earliest maximum overlap.
 
 Checkpoint status: 20 of 100 problems in Batch 006 processed (overall eligible ordinals 151–170). Next problem: ordinal 171.
+
+
+# Migration classification — Batch 006 (checkpoint 6)
+
+171. `broken_calculator_1033` — Score 36 — Medium — Works backward from the target using parity-directed inverse operations, then finishes with direct decrements when the target falls below the start.
+172. `buddy_strings_889` — Score 27 — Easy — Checks length and matching positions, then validates the single possible swap or a duplicate character for identical strings.
+173. `build_a_matrix_with_conditions_2472` — Score 62 — Medium — Runs independent topological sorts for row and column precedence DAGs, detects cycles, then combines the two position mappings.
+174. `build_an_array_with_stack_operations_1552` — Score 20 — Easy — Simulates the input stream and emits Push plus optional Pop operations until the target sequence is constructed.
+
+Checkpoint status: 24 of 100 problems in Batch 006 processed (overall eligible ordinals 151–174). Next problem: ordinal 175.
