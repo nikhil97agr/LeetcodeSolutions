@@ -400,3 +400,13 @@ Batch 006 status: 48 of 100 problems accounted for (151–174 pre-existing and v
 202. `candy_135` — Score 58 — Medium — The solution processes children in rating order and propagates neighbor constraints to compute a minimum valid candy assignment; sorting and dependency handling make it more involved than a basic scan.
 
 Batch 006 status: 52 of 100 problems accounted for (151–174 pre-existing and verified; 175–202 newly copied). Next problem: ordinal 203.
+
+
+# Migration classification — Batch 006 (checkpoint 7)
+
+199. `can_make_palindrome_from_substring_1281` — Score 44 — Medium — Prefix character frequencies answer many substring queries; parity counts determine the minimum replacements needed to pair odd-frequency characters.
+200. `can_place_flowers_605` — Score 22 — Easy — A single greedy scan places a flower whenever both adjacent plots are empty, including boundary positions.
+201. `can_you_eat_your_favorite_candy_on_your_favorite_day_1872` — Score 48 — Medium — Prefix candy totals define the minimum and maximum cumulative consumption by a given day, enabling interval feasibility checks per query.
+202. `candy_135` — Score 67 — Hard — Minimum assignments must satisfy both neighboring-rating constraints globally; processing ratings in sorted order propagates candy requirements across adjacent children.
+
+Batch 006 status: 52 of 100 problems accounted for (151–174 pre-existing and verified; 175–202 newly copied). Next problem: ordinal 203.
