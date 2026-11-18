@@ -327,3 +327,16 @@ The next eight eligible problems (ordinals 151–158) were already present in th
 158. `bitwise_xor_of_all_pairings_2533` — existing destination: Algorithm/Medium
 
 Batch 006: 8/100 problems accounted for; 0 new copies needed. Next problem: ordinal 159.
+
+
+# Migration classification — Batch 006 (checkpoint 1)
+
+Pre-existing destination audit: ordinals 151–174 (24 problems) were already organized. All source files in each folder have exact matching destination blob SHAs; no copies were made and no duplicates introduced.
+
+Newly classified and copied:
+175. `build_array_from_permutation_2048` — Score 12 — Easy — Directly applies the given nested indexing transformation in one pass.
+176. `build_array_where_you_can_find_the_maximum_exactly_k_comparisons_1535` — Score 74 — Hard — Three-dimensional dynamic programming tracks position, current maximum, and search-cost count; the state transitions aggregate many choices under a modulus.
+177. `build_binary_expression_tree_from_infix_expression_1736` — Score 70 — Hard — Two-stack parsing must correctly implement parentheses and operator precedence while constructing expression-tree nodes in operand order.
+178. `building_boxes_1861` — Score 66 — Hard — Finds the minimum floor footprint by filling complete tetrahedral layers and then solving the residual triangular layer under a huge bound.
+
+Batch 006 status: 28 of 100 problems accounted for (151–174 pre-existing and verified; 175–178 newly copied). Next problem: ordinal 179.
