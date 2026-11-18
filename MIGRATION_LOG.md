@@ -420,3 +420,6 @@ Batch 006 status: 52 of 100 problems accounted for (151–174 pre-existing and v
 206. `car_fleet_883` — Score 47 — Medium — Sorts cars by starting position and compares arrival times from nearest to farthest to merge cars that cannot pass one another.
 
 Batch 006 status: 56 of 100 problems accounted for (151–174 pre-existing and verified; 175–206 newly copied). Next problem: ordinal 207.
+
+
+Correction to Batch 006 checkpoint 8: `candy_135` was already present under Algorithm/Hard. The temporary duplicate copy under Algorithm/Medium has been removed. The existing Hard placement is retained; there is now one destination folder for this problem.
