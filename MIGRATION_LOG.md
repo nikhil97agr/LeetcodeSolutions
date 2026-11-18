@@ -199,3 +199,13 @@ Checkpoint status: 20 of 100 problems in Batch 004 processed (overall eligible o
 130. `binary_search_tree_to_greater_sum_tree_1114` — Score 34 — Easy — Reverse-inorder traversal accumulates a suffix sum and updates nodes in place.
 
 Checkpoint status: 20 of 100 problems in Batch 004 processed (overall eligible ordinals 111–130). Next problem: ordinal 131.
+
+
+# Migration classification — Batch 005 (checkpoint 1)
+
+131. `binary_searchable_numbers_in_an_unsorted_array_2111` — Score 43 — Medium — A value is guaranteed searchable exactly when it is no smaller than every preceding value and no larger than every following value; prefix maxima and suffix minima make the test linear.
+132. `binary_string_with_substrings_representing_1_to_n_1065` — Score 45 — Medium — Checks a large range of binary substrings, converting and deduplicating candidate values while respecting the upper bound; the bounded substring enumeration is the key insight.
+133. `binary_subarrays_with_sum_966` — Score 49 — Medium — Counts target-sum windows in a binary array using a specialized sliding-window invariant that tracks leading zero choices.
+134. `binary_tree_cameras_1008` — Score 68 — Hard — A bottom-up tree DP/greedy state machine distinguishes uncovered, covered, and camera-placed nodes to achieve a global minimum.
+
+Checkpoint status: 4 of 100 problems in Batch 005 processed (overall eligible ordinals 131–134). Next problem: ordinal 135.
