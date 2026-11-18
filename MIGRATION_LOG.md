@@ -271,3 +271,13 @@ Checkpoint status: 4 of 100 problems in Batch 006 processed (overall eligible or
 158. `bitwise_xor_of_all_pairings_2533` — Score 36 — Medium — Parity reasoning shows each element contributes to the total XOR only when the opposite array has odd length; this collapses a quadratic pairing process to linear scans.
 
 Checkpoint status: 8 of 100 problems in Batch 006 processed (overall eligible ordinals 151–158). Next problem: ordinal 159.
+
+
+# Migration classification — Batch 006 (checkpoint 3)
+
+159. `block_placement_queries_3435` — Score 72 — Hard — Dynamic obstacle insertion and prefix-gap feasibility require coordinated ordered-set and distance-index structures to answer range queries efficiently.
+160. `boats_to_save_people_917` — Score 39 — Medium — Sorting plus a two-pointer greedy pairs the lightest remaining person with the heaviest whenever feasible.
+161. `bold_words_in_string_760` — Score 56 — Medium — Multiple-pattern matching with KMP, interval ordering, and overlap merging is needed to produce the minimum valid bold-tag spans.
+162. `bomb_enemy_361` — Score 48 — Medium — Four directional scans accumulate enemy counts within wall-delimited row and column segments for each candidate cell.
+
+Checkpoint status: 12 of 100 problems in Batch 006 processed (overall eligible ordinals 151–162). Next problem: ordinal 163.
