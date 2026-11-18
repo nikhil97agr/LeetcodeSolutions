@@ -229,3 +229,13 @@ Checkpoint status: 8 of 100 problems in Batch 005 processed (overall eligible or
 142. `binary_tree_paths_257` — Score 24 — Easy — A straightforward DFS builds the root-to-leaf path string and records it when a leaf is reached.
 
 Checkpoint status: 12 of 100 problems in Batch 005 processed (overall eligible ordinals 131–142). Next problem: ordinal 143.
+
+
+# Migration classification — Batch 005 (checkpoint 4)
+
+143. `binary_tree_postorder_traversal_145` — Score 14 — Easy — A direct recursive postorder traversal visits left subtree, right subtree, then the current node.
+144. `binary_tree_preorder_traversal_144` — Score 14 — Easy — A direct recursive preorder traversal records the current node before visiting its two subtrees.
+145. `binary_tree_pruning_832` — Score 37 — Medium — Postorder recursion must prune children first, then decide whether each parent subtree contains any one-valued node.
+146. `binary_tree_right_side_view_199` — Score 39 — Medium — A level-order traversal visits right children first and records the first node at each depth.
+
+Checkpoint status: 16 of 100 problems in Batch 005 processed (overall eligible ordinals 131–146). Next problem: ordinal 147.
