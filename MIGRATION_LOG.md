@@ -219,3 +219,13 @@ Checkpoint status: 4 of 100 problems in Batch 005 processed (overall eligible or
 138. `binary_tree_level_order_traversal_ii_107` — Score 28 — Easy — Standard level-order BFS followed by reversing the collected levels to produce bottom-up order.
 
 Checkpoint status: 8 of 100 problems in Batch 005 processed (overall eligible ordinals 131–138). Next problem: ordinal 139.
+
+
+# Migration classification — Batch 005 (checkpoint 3)
+
+139. `binary_tree_longest_consecutive_sequence_298` — Score 37 — Medium — DFS carries the current increasing run and resets it at breaks while comparing the best path across both subtrees.
+140. `binary_tree_longest_consecutive_sequence_ii_549` — Score 62 — Medium — Postorder DP returns separate increasing and decreasing chain lengths so a path can combine both directions through a node.
+141. `binary_tree_maximum_path_sum_124` — Score 70 — Hard — Postorder tree DP distinguishes the best one-branch gain returned to the parent from a two-branch path that may form the global optimum.
+142. `binary_tree_paths_257` — Score 24 — Easy — A straightforward DFS builds the root-to-leaf path string and records it when a leaf is reached.
+
+Checkpoint status: 12 of 100 problems in Batch 005 processed (overall eligible ordinals 131–142). Next problem: ordinal 143.
