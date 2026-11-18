@@ -209,3 +209,13 @@ Checkpoint status: 20 of 100 problems in Batch 004 processed (overall eligible o
 134. `binary_tree_cameras_1008` — Score 68 — Hard — A bottom-up tree DP/greedy state machine distinguishes uncovered, covered, and camera-placed nodes to achieve a global minimum.
 
 Checkpoint status: 4 of 100 problems in Batch 005 processed (overall eligible ordinals 131–134). Next problem: ordinal 135.
+
+
+# Migration classification — Batch 005 (checkpoint 2)
+
+135. `binary_tree_coloring_game_1248` — Score 44 — Medium — Tree-subtree sizes partition the graph around the first player's chosen node; the winning move depends on comparing three connected regions.
+136. `binary_tree_inorder_traversal_94` — Score 14 — Easy — A direct recursive inorder traversal visits left subtree, node, then right subtree.
+137. `binary_tree_level_order_traversal_102` — Score 23 — Easy — Breadth-first traversal with a queue groups nodes by level using the current queue frontier.
+138. `binary_tree_level_order_traversal_ii_107` — Score 28 — Easy — Standard level-order BFS followed by reversing the collected levels to produce bottom-up order.
+
+Checkpoint status: 8 of 100 problems in Batch 005 processed (overall eligible ordinals 131–138). Next problem: ordinal 139.
