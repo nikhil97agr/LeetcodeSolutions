@@ -433,3 +433,14 @@ Correction to Batch 006 checkpoint 8: `candy_135` was already present under Algo
 210. `cat_and_mouse_949` — Score 88 — Hard — Game-theoretic retrograde analysis resolves win/loss states over mouse position, cat position, and turn while tracking remaining legal moves to identify forced outcomes.
 
 Batch 006 status: 60 of 100 problems accounted for (151–174 pre-existing and verified; 175–210 newly copied). Next problem: ordinal 211.
+
+
+# Migration classification — Batch 006 (duplicate-audit checkpoint 2)
+
+Ordinals 207–210 were already present in their destination folders before this batch. Each has two source files and two matching destination blobs (exact SHA matches); skipped without copying:
+- 207 `car_fleet_ii_1902` — Algorithm/Hard
+- 208 `car_pooling_1184` — Algorithm/Medium
+- 209 `card_flipping_game_842` — Algorithm/Easy
+- 210 `cat_and_mouse_949` — Algorithm/Hard
+
+Batch 006 status: 60 of 100 problems accounted for (151–174 and 207–210 pre-existing and verified; 175–206 newly copied). Next problem: ordinal 211.
