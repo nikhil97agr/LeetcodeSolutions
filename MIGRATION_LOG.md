@@ -423,3 +423,13 @@ Batch 006 status: 56 of 100 problems accounted for (151–174 pre-existing and v
 
 
 Correction to Batch 006 checkpoint 8: `candy_135` was already present under Algorithm/Hard. The temporary duplicate copy under Algorithm/Medium has been removed. The existing Hard placement is retained; there is now one destination folder for this problem.
+
+
+# Migration classification — Batch 006 (checkpoint 9)
+
+207. `car_fleet_ii_1902` — Score 74 — Hard — A monotonic stack must discard cars that are unreachable or whose collision is superseded by a fleet they join, while calculating valid collision times.
+208. `car_pooling_1184` — Score 35 — Medium — Trip start and end events are accumulated by location and swept in sorted order to maintain passenger occupancy.
+209. `card_flipping_game_842` — Score 34 — Easy — A value is invalid only when it appears on both sides of the same card; scanning candidates against this forbidden set is straightforward.
+210. `cat_and_mouse_949` — Score 88 — Hard — Game-theoretic retrograde analysis resolves win/loss states over mouse position, cat position, and turn while tracking remaining legal moves to identify forced outcomes.
+
+Batch 006 status: 60 of 100 problems accounted for (151–174 pre-existing and verified; 175–210 newly copied). Next problem: ordinal 211.
