@@ -444,3 +444,13 @@ Ordinals 207–210 were already present in their destination folders before this
 - 210 `cat_and_mouse_949` — Algorithm/Hard
 
 Batch 006 status: 60 of 100 problems accounted for (151–174 and 207–210 pre-existing and verified; 175–206 newly copied). Next problem: ordinal 211.
+
+
+# Migration classification — Batch 006 (checkpoint 10)
+
+211. `cat_and_mouse_ii_1727` — Score 82 — Hard — Adversarial game search over cat position, mouse position, and turn order must reason about reachable moves and the finite turn limit.
+212. `categorize_box_according_to_criteria_2619` — Score 16 — Easy — Checks independent dimension, volume, and mass thresholds and combines the resulting two category flags.
+213. `cells_in_a_range_on_an_excel_sheet_2304` — Score 17 — Easy — Nested iteration over the bounded column and row ranges generates the requested cell labels in sorted order.
+214. `cells_with_odd_values_in_a_matrix_1378` — Score 23 — Easy — Directly simulates row and column increments, then counts cells with odd values.
+
+Batch 006 status: 64 of 100 problems accounted for (151–174 and 207–210 pre-existing and verified; 175–206 and 211–214 newly copied). Next problem: ordinal 215.
