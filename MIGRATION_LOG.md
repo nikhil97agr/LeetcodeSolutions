@@ -380,3 +380,13 @@ Batch 006 status: 40 of 100 problems accounted for (151–174 pre-existing and v
 194. `campus_bikes_1052` — Score 45 — Medium — Generates all worker-bike pairs, sorts them by distance and tie-breakers, then greedily assigns unused endpoints.
 
 Batch 006 status: 44 of 100 problems accounted for (151–174 pre-existing and verified; 175–194 newly copied). Next problem: ordinal 195.
+
+
+# Migration classification — Batch 006 (checkpoint 6)
+
+195. `campus_bikes_ii_1067` — Score 72 — Hard — Bitmask dynamic programming explores one-to-one assignments while minimizing total Manhattan cost across worker subsets and bike positions.
+196. `can_convert_string_in_k_moves_1647` — Score 47 — Medium — Character shifts with equal residues must be scheduled at distinct increasing times separated by 26, requiring frequency-based feasibility checks.
+197. `can_i_win_464` — Score 68 — Hard — Memoized game-state search over used-number subsets determines whether a player can force a win under optimal adversarial choices.
+198. `can_make_arithmetic_progression_from_sequence_1626` — Score 22 — Easy — Sorting exposes the candidate common difference; one linear scan verifies every adjacent gap.
+
+Batch 006 status: 48 of 100 problems accounted for (151–174 pre-existing and verified; 175–198 newly copied). Next problem: ordinal 199.
