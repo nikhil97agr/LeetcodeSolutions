@@ -249,3 +249,15 @@ Checkpoint status: 16 of 100 problems in Batch 005 processed (overall eligible o
 150. `binary_tree_zigzag_level_order_traversal_103` — Score 42 — Medium — Alternating level traversal changes child-push order across stack frontiers to produce zigzag ordering.
 
 Checkpoint status: 20 of 100 problems in Batch 005 processed (overall eligible ordinals 131–150). Next problem: ordinal 151.
+
+
+# Migration classification — Batch 006 (checkpoint 1)
+
+151. `binary_trees_with_factors_843` — Score 49 — Medium — Sorted factorization DP counts ordered child-factor pairs for each product and accumulates tree counts modulo the required modulus.
+152. `binary_watch_401` — Score 29 — Easy — Enumerates valid hour/minute bit combinations with a fixed small number of LEDs and filters values to legal clock ranges.
+153. `bitwise_and_of_numbers_range_201` — Score 38 — Medium — Recognizes that the range AND is the common binary prefix of both bounds, implemented by clearing trailing set bits until they match.
+154. `bitwise_or_of_adjacent_elements_3472` — Score 10 — Easy — A single linear pass applies bitwise OR to each adjacent pair.
+
+Duplicate audit correction: removed duplicate destination copies for `binary_search_tree_to_greater_sum_tree_1114`, `best_time_to_buy_and_sell_stock_iv_188`, and `best_time_to_buy_and_sell_stock_v_3892`. Each now has exactly one destination under its logged difficulty.
+
+Checkpoint status: 4 of 100 problems in Batch 006 processed (overall eligible ordinals 151–154). Next problem: ordinal 155.
