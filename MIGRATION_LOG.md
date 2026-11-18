@@ -281,3 +281,13 @@ Checkpoint status: 8 of 100 problems in Batch 006 processed (overall eligible or
 162. `bomb_enemy_361` — Score 48 — Medium — Four directional scans accumulate enemy counts within wall-delimited row and column segments for each candidate cell.
 
 Checkpoint status: 12 of 100 problems in Batch 006 processed (overall eligible ordinals 151–162). Next problem: ordinal 163.
+
+
+# Migration classification — Batch 006 (checkpoint 4)
+
+163. `booking_concert_tickets_in_groups_2380` — Score 73 — Hard — Supports constrained gather/scatter operations over many rows using a segment tree for range capacity queries and indexed allocation state.
+164. `boundary_of_binary_tree_545` — Score 46 — Medium — Combines root handling, left-boundary preference, ordered leaf collection, and reversed right-boundary traversal without duplicates.
+165. `brace_expansion_1076` — Score 40 — Medium — Builds Cartesian products of character-choice sets across tokens and deduplicates and sorts the resulting words.
+166. `brace_expansion_ii_1188` — Score 71 — Hard — Parses nested grammar with union and concatenation precedence, recursively evaluating sets and Cartesian products.
+
+Checkpoint status: 16 of 100 problems in Batch 006 processed (overall eligible ordinals 151–166). Next problem: ordinal 167.
