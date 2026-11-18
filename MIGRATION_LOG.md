@@ -390,3 +390,13 @@ Batch 006 status: 44 of 100 problems accounted for (151–174 pre-existing and v
 198. `can_make_arithmetic_progression_from_sequence_1626` — Score 22 — Easy — Sorting exposes the candidate common difference; one linear scan verifies every adjacent gap.
 
 Batch 006 status: 48 of 100 problems accounted for (151–174 pre-existing and verified; 175–198 newly copied). Next problem: ordinal 199.
+
+
+# Migration classification — Batch 006 (checkpoint 7)
+
+199. `can_make_palindrome_from_substring_1281` — Score 51 — Medium — Prefix character-frequency counts answer each substring query by determining how many odd-frequency characters must be paired through replacements.
+200. `can_place_flowers_605` — Score 28 — Easy — A greedy linear scan plants a flower whenever the current plot and both neighbors are empty.
+201. `can_you_eat_your_favorite_candy_on_your_favorite_day_1872` — Score 48 — Medium — Prefix sums and interval bounds determine whether the target candy type can be reached on a given day under minimum and maximum daily consumption.
+202. `candy_135` — Score 58 — Medium — The solution processes children in rating order and propagates neighbor constraints to compute a minimum valid candy assignment; sorting and dependency handling make it more involved than a basic scan.
+
+Batch 006 status: 52 of 100 problems accounted for (151–174 pre-existing and verified; 175–202 newly copied). Next problem: ordinal 203.
