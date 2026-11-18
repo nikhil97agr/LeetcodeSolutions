@@ -340,3 +340,13 @@ Newly classified and copied:
 178. `building_boxes_1861` — Score 66 — Hard — Finds the minimum floor footprint by filling complete tetrahedral layers and then solving the residual triangular layer under a huge bound.
 
 Batch 006 status: 28 of 100 problems accounted for (151–174 pre-existing and verified; 175–178 newly copied). Next problem: ordinal 179.
+
+
+# Migration classification — Batch 006 (checkpoint 2)
+
+179. `building_h2o_1186` — Score 58 — Medium — Semaphore coordination must release exactly two hydrogen threads before one oxygen thread and prevent interleaving between molecule groups.
+180. `buildings_with_an_ocean_view_1909` — Score 32 — Easy — A right-to-left scan maintains the maximum height seen and collects strictly taller-than-all-to-the-right buildings.
+181. `bulb_switcher_319` — Score 24 — Easy — The number of bulbs left on equals the count of perfect squares because only square-indexed bulbs have an odd number of divisors.
+182. `bulb_switcher_ii_672` — Score 38 — Medium — The four toggle operations collapse into a small set of parity patterns; reasoning about equivalence and the press-count limit bounds the state space.
+
+Batch 006 status: 32 of 100 problems accounted for (151–174 pre-existing and verified; 175–182 newly copied). Next problem: ordinal 183.
