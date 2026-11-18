@@ -311,3 +311,19 @@ Checkpoint status: 20 of 100 problems in Batch 006 processed (overall eligible o
 174. `build_an_array_with_stack_operations_1552` — Score 20 — Easy — Simulates the input stream and emits Push plus optional Pop operations until the target sequence is constructed.
 
 Checkpoint status: 24 of 100 problems in Batch 006 processed (overall eligible ordinals 151–174). Next problem: ordinal 175.
+
+
+# Migration classification — Batch 006 (duplicate-audit checkpoint)
+
+The next eight eligible problems (ordinals 151–158) were already present in the destination before this batch. All eight source folders have exactly two corresponding destination files (statement and Java solution), and every destination blob SHA matches its source. They were skipped rather than copied again, preventing duplicate folders/files.
+
+151. `binary_trees_with_factors_843` — existing destination: Algorithm/Medium
+152. `binary_watch_401` — existing destination: Algorithm/Easy
+153. `bitwise_and_of_numbers_range_201` — existing destination: Algorithm/Medium
+154. `bitwise_or_of_adjacent_elements_3472` — existing destination: Algorithm/Easy
+155. `bitwise_or_of_all_subsequence_sums_2644` — existing destination: Algorithm/Medium
+156. `bitwise_or_of_even_numbers_in_an_array_4009` — existing destination: Algorithm/Easy
+157. `bitwise_ors_of_subarrays_934` — existing destination: Algorithm/Medium
+158. `bitwise_xor_of_all_pairings_2533` — existing destination: Algorithm/Medium
+
+Batch 006: 8/100 problems accounted for; 0 new copies needed. Next problem: ordinal 159.
